@@ -5,3 +5,81 @@ html{
     -o-background-size: cover;
     background-size: cover;
 }
+body{
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+p{
+    padding: 0;
+}
+.blue-color{
+    color: #0257bc;
+}
+#container{
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    /* border: 1px solid red; */
+    width: 60%;
+    height: 600px;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}
+
+#menu{
+    float: left;
+    background-color: white;
+
+    border-radius: 20px;
+    width: 25%;
+    height: 95%;
+}
+
+#menuPrincipalText{
+    margin: 0px;
+    padding: 20px;
+
+    text-align: center;
+    font-size: 50px;
+}
+
+#toDoContainer{
+    float: right;
+    background-color: white;
+    border-radius: 20px;
+
+    width: 73%;
+    height: 95%;
+}
+
+#todayContent{
+    width: 15%;
+    height: 25%;
+    float: right;
+    padding: 20px;
+}
+
+#todayText{
+    margin: 0px;
+    float: left;
+    
+}
+
+#todayTime{
+    text-align: right;
+    float: right;
+}
+
+#inputTaskText{
+    text-align: center;
+    border: 2px solid #797979;
+    border-radius: 5px;
+
+    padding: 0.5rem;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+#inputButton{
+    padding: 0.5rem;
+}
