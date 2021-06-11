@@ -1,0 +1,15 @@
+body{
+    background-image: url(../images/barbecue-design-elements-grill-summer-food_87689-163.jpg);
+    background-repeat: repeat;
+}
+
+#container{
+    border: 1px red solid;
+
+    margin: auto;
+    max-width: 300px;
+}
+
+#imgChurrascometro{
+    max-width: 300px;
+}
