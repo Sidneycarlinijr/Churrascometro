@@ -4,7 +4,7 @@ body{
 }
 
 #container{
-    border: 1px red solid;
+    border: 2px blue solid;
 
     margin: auto;
     max-width: 300px;
