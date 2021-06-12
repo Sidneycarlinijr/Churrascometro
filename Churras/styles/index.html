@@ -13,21 +13,26 @@
     <div id="container">
         <img id="imgChurrascometro" src="../images/prt.png" alt="Churrascometro">
         <input 
-            id="inputNumber" 
+            id="numberOfAdults"
+            name="numberOfAdults"
             type="number" 
             placeholder="Number of adults"
         >
         <input 
-            id="numberOfChildrens" 
+            id="numberOfKids" 
+            name="numberOfKids"
             type="number" 
-            placeholder="Number of children"
+            placeholder="Number of kids"
         >
         <input 
             id="duration" 
+            name="duration"
             type="number" 
             placeholder="Duration in hours"
         >
-        <button>Calcular</button>
+        <button id="calcButton">Calcular</button>
+        <div id="result">
+        </div>  
     </div>
-<script type="text/javascript" href="../scripts/script.js"></script>
+<script type="text/javascript" src="../scripts/script.js"></script>
 </body>
