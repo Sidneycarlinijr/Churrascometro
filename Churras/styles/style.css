@@ -1,15 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     background-image: url(../images/barbecue-design-elements-grill-summer-food_87689-163.jpg);
     background-repeat: repeat;
 }
 
-#container{
-    border: 2px blue solid;
+input{
+    margin-top: 7px;
+    padding: 1px;
+    width: 80%;
+    
+    border-radius: 4px;
+    border: none;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: black;
+    text-align: center;
+}
 
-    margin: auto;
+button{
+    background-color: rgba(37, 85, 245, 0.781);
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+    padding: 8px;
+    margin-top: 15px;
+}
+
+button:hover{
+    background-color: rgba(8, 54, 202, 0.856);
+}
+
+#container{
     max-width: 300px;
+    padding: 50px 20px 30px 20px;
+    transform: translateY(50%);
+    
+    background-color: rgba(255, 187, 97, 0.918);
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
 }
 
 #imgChurrascometro{
-    max-width: 300px;
+    max-width: 200px;
 }
+

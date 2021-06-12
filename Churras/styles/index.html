@@ -5,14 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
     <title>Churrascometro?</title>
 </head>
 <body>
     <div id="container">
         <img id="imgChurrascometro" src="../images/prt.png" alt="Churrascometro">
-        <input class="inputNumber" type="number" placeholder="N de adultos">
-        <input class="inputNumber" type="number" placeholder="N de crianças">
-        <input class="inputNumber" type="number" placeholder="Tempo de duração (H)">
+        <input 
+            id="inputNumber" 
+            type="number" 
+            placeholder="Number of adults"
+        >
+        <input 
+            id="numberOfChildrens" 
+            type="number" 
+            placeholder="Number of children"
+        >
+        <input 
+            id="duration" 
+            type="number" 
+            placeholder="Duration in hours"
+        >
+        <button>Calcular</button>
     </div>
 <script type="text/javascript" href="../scripts/script.js"></script>
 </body>
