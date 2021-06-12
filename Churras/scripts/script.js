@@ -20,5 +20,4 @@ function calc(){
         alert("Do not leave any box empty ;)")
     } 
 }
-
 calcButton.addEventListener("click", calc)
