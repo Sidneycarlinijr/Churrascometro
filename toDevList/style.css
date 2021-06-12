@@ -39,7 +39,7 @@ p{
     padding: 20px;
 
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #toDoContainer{
@@ -82,4 +82,5 @@ p{
 
 #inputButton{
     padding: 0.5rem;
+    font-size: 1rem;
 }
