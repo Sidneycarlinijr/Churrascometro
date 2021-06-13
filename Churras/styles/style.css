@@ -34,10 +34,14 @@ button:hover{
     background-color: rgba(8, 54, 202, 0.856);
 }
 
+p{
+    text-align: left;
+    margin-left: 30px;
+}
 #container{
     max-width: 300px;
     padding: 50px 20px 30px 20px;
-    transform: translateY(50%);
+    transform: translateY(30%);
     
     background-color: rgba(255, 187, 97, 0.918);
     margin: auto;
